@@ -1,0 +1,4 @@
+venv
+backend/data/
+# chatbot-ui/node_modules/
+backend/__pycache__/
