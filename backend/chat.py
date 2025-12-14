@@ -48,3 +48,4 @@ async def stream_response(session_id: str, user_message: str):
         yield {"event": "end", "data": "done"}
     except Exception as e:
         yield {"event": "error", "data": str(e)}
+        

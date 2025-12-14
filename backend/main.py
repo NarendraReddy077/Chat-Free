@@ -4,7 +4,7 @@ from sse_starlette.sse import EventSourceResponse
 
 from chat import stream_response
 
-app = FastAPI(title="AI Chat Assistant", version="1.0.0")
+app = FastAPI(title="Chat Free", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
